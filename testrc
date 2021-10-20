@@ -1,0 +1,4 @@
+DIR=`pwd`
+#DIR=`dirname  $BASH_SOURCE`
+#DIR2=$CDIR/$DIR1
+export PATH=$DIR:$DIR/bin:$PATH

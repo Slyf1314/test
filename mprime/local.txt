@@ -1,0 +1,9 @@
+OldCpuSpeed=3361
+NewCpuSpeedCount=4
+NewCpuSpeed=3250
+RollingAverage=1000
+RollingAverageIsFromV27=1
+ComputerGUID=e7cfb23db8afd8bdb202a0c5d916c9e8
+RollingHash=0
+RollingStartTime=1624479990
+RollingCompleteTime=0

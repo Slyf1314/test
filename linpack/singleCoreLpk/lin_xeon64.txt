@@ -1,0 +1,38 @@
+Wed Mar 21 15:40:10 CST 2018
+Intel(R) Optimized LINPACK Benchmark data
+
+Warning: incorrect parameter Leading dimension of array (1000),
+must be not less than (16384),
+set to default value (16384).
+Current date/time: Wed Mar 21 15:40:10 2018
+
+CPU frequency:    1.494 GHz
+Number of CPUs: 2
+Number of cores: 28
+Number of threads: 28
+
+Parameters are set to:
+
+Number of tests: 1
+Number of equations to solve (problem size) : 16384
+Leading dimension of array                  : 16384
+Number of trials to run                     : 1    
+Data alignment value (in Kbytes)            : 4    
+
+Maximum memory requested that can be used=2147815424, at the size=16384
+
+=================== Timing linear equation system solver ===================
+
+Size   LDA    Align. Time(s)    GFlops   Residual     Residual(norm) Check
+16384  16384  4      3.952      741.9658 1.797883e-10 2.370259e-02   pass
+
+Performance Summary (GFlops)
+
+Size   LDA    Align.  Average  Maximal
+16384  16384  4       741.9658 741.9658
+
+Residual checks PASSED
+
+End of tests
+
+Done: Wed Mar 21 15:40:27 CST 2018

@@ -1,0 +1,29 @@
+#!/bin/bash
+
+n=$1
+num_of_cores=
+n1=`echo num_of_cores/2|bc`
+m=`echo $num_of_cores/$n|bc`
+
+if [ $n > $n1 ];then
+echo The num of processes is larger the half of the total num of the cpu cores in the system!
+exit
+fi
+
+for i in $(seq 0 $m)
+do
+    process_id=`echo $n*$m`
+    if [];then
+
+    fi
+    echo $i
+
+    mkdir test-$i
+    cp xhpl HPL.dat test-$i
+    cd test-$i
+    echo \t $i
+    /opt/openmpi-4.0.4/bin/mpiexec --cpu-set $i --allow-run-as-root -n 1 ./xhpl &
+    cd ..
+done &
+wait
+~
